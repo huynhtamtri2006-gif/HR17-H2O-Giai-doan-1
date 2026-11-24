@@ -1,0 +1,58 @@
+MỞ LẠI HR17_Danh_gia_6_Motion_ID_OOD.ipynb — 24/11/2026
+
+Mục tiêu: khôi phục phiên GPU mới để chuẩn bị phép thử tiếp theo.
+Không chạy lại các thí nghiệm/huấn luyện đã hoàn tất.
+
+Cách đánh số: vị trí từ đầu file, tính cả ô văn bản Markdown.
+Ô 1 là tiêu đề CÀI LẠI MÔI TRƯỜNG; ô 2 là code Kiểm tra GPU.
+Số [n] bên cạnh nút Run là thứ tự thực thi, không dùng để xác định vị trí.
+Bản đã đọc: 59 ô tổng cộng (47 ô code, trong đó ô cuối trống).
+
+CHẠY THEO THỨ TỰ:
+2. #Kiểm tra GPU
+3. %%bash — #Tạo môi trường Python 3.8
+4. %%bash — #Cài PyTorch và NumPy
+5. %%bash — #Kiểm tra tính toán PyTorch trên GPU
+6. #Tải Isaac Gym và ba ZIP đã lưu
+   Chọn lần lượt đúng tên file theo thông báo:
+   IsaacGym_Preview_4_Package.tar
+   20261118_212729_418901.zip
+   20261118_215810_217119.zip
+   20261118_221112_587011.zip
+7. #Kiểm tra và giải nén Isaac Gym
+8. %%bash — #Tải repo đúng commit và tìm URDF H1
+9. %%writefile /content/hr17_restore_latest_session.py — #Ghi script khôi phục phiên mới
+10. #Thực thi khôi phục thư viện, checkpoint và dữ liệu
+
+Nếu ô 10 hoàn tất import H2O và mã kết thúc 0:
+13. #Xác nhận ba seed và dữ liệu đã sẵn sàng
+21. Ô files.upload() dưới tiêu đề Chuẩn bị 6 chuyển động ID/OOD — không cần GPU
+    Chọn HR17_Motion_ID_OOD_6clip.zip.
+23. Ô files.upload() dưới tiêu đề ID/OOD — Tải và kiểm tra script, không cần GPU
+    Chọn hr17_evaluate_motion_id_ood.py bản đã sửa normalized_motion_keys.
+24. Ô bắt đầu bằng from pathlib import Path; có assert "def normalized_motion_keys" ...
+25. #kiểm tra dữ liệu và script, không cần GPU
+30. #KIỂM TRA TRƯỚC KHI THỬ KÉO DÀI EPISODE
+Kết quả cần có: CHECKPOINT MODEL_50 khớp; dữ liệu/script đã có.
+Dừng tại đây nếu chỉ khôi phục phiên để chuẩn bị bước mới.
+
+CHỈ KHI Ô 10 LỖI Ở BƯỚC NATIVE IMPORT:
+11. Ô bắt đầu from pathlib import Path / import json; in 80 dòng cuối log.
+12. Ô files.upload() yêu cầu hr17_recheck_native_import.py.
+    File ở ML/hr17_log_review/hr17_recheck_native_import.py.
+Nếu ô 12 chưa thành công, dùng ô 16:
+    Ô files.upload() yêu cầu hr17_native_diagnosis_v3.py.
+    File ở ML/hr17_log_review/hr17_native_diagnosis_v3.py.
+Phải có /content/hr17_runtime_environment.json với native_h2o_import_verified=true.
+Sau khi kiểm tra native thành công, chạy 13 rồi 21,23,24,25,30.
+Nếu ô 10 lỗi ở phần tải/cài thư viện, hash ZIP hoặc giải nén: gửi log, không tự bỏ qua.
+
+KHÔNG CẦN CHẠY LẠI:
+Các đối chứng khuỷu tay, độ cao, Kd, năm clip, chạy lặp và hai lượt tinh chỉnh.
+Ô 27 đánh giá sáu motion và ô 29 tải kết quả chỉ dùng khi chủ động chạy lại phép đánh giá cũ.
+Ô 56/57/58 là chẩn đoán PPO 5 cập nhật đã hoàn tất, không cần chạy lại để khôi phục.
+Không dùng Run all.
+
+File kết quả ZIP đã có trên Windows không tự xuất hiện lại trong /content phiên mới.
+Các phép thử mới đang dùng model_50 gốc; không cần tải lại các checkpoint fine-tune kém hơn.
+Script khôi phục đã cài nhóm thư viện và phụ thuộc repo, không cần chạy lại các ô cài đặt từ notebook cũ khác.

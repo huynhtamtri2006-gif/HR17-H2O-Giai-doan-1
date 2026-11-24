@@ -1,0 +1,113 @@
+{
+  "status": "independently_verified",
+  "source": "20261124_101330_883796.zip",
+  "source_sha256": "5c054e8959b82f54b733ff6fe184df5afcb5dbd31f3d1f21276a255b24d8edaf",
+  "verified_files": 169,
+  "new_training_runs": 2,
+  "updates_each": 5,
+  "total_new_transitions": 30720,
+  "warm_start_exact": true,
+  "fresh_optimizers": true,
+  "optimizer_steps_per_parameter": 100,
+  "archived_child_code_and_effective_configs_exact": true,
+  "separate_clipping_raw_gradient_check_passed": true,
+  "results": [
+    {
+      "run": "reference_archive",
+      "updates": 0,
+      "steps": 83,
+      "reset_s": 1.659999966621399,
+      "common_nonterminal_steps": 69,
+      "global_mpjpe_mm": 108.34893929464194,
+      "root_relative_mpjpe_mm": 75.64660549923035
+    },
+    {
+      "run": "reference_archive",
+      "updates": 5,
+      "steps": 87,
+      "reset_s": 1.7400000095367432,
+      "common_nonterminal_steps": 69,
+      "global_mpjpe_mm": 100.72338699543624,
+      "root_relative_mpjpe_mm": 72.6641210136529
+    },
+    {
+      "run": "rerun1",
+      "updates": 0,
+      "steps": 83,
+      "reset_s": 1.659999966621399,
+      "common_nonterminal_steps": 69,
+      "global_mpjpe_mm": 108.34893929464194,
+      "root_relative_mpjpe_mm": 75.64660549923035
+    },
+    {
+      "run": "rerun1",
+      "updates": 5,
+      "steps": 113,
+      "reset_s": 2.259999990463257,
+      "common_nonterminal_steps": 69,
+      "global_mpjpe_mm": 81.00784042241395,
+      "root_relative_mpjpe_mm": 63.591401075362725
+    },
+    {
+      "run": "rerun2",
+      "updates": 0,
+      "steps": 83,
+      "reset_s": 1.659999966621399,
+      "common_nonterminal_steps": 69,
+      "global_mpjpe_mm": 108.35272662638327,
+      "root_relative_mpjpe_mm": 75.65604712283266
+    },
+    {
+      "run": "rerun2",
+      "updates": 5,
+      "steps": 70,
+      "reset_s": 1.399999976158142,
+      "common_nonterminal_steps": 69,
+      "global_mpjpe_mm": 163.02157858965268,
+      "root_relative_mpjpe_mm": 102.9980940358554
+    }
+  ],
+  "raw_comparisons": [
+    {
+      "comparison": "archived separate arm",
+      "rerun": 1,
+      "first_rollout_max_abs_differences": {
+        "returns": 61.719146728515625,
+        "values": 56.67767333984375,
+        "advantages": 1.1327496618032455,
+        "rewards": 14.045722007751465,
+        "dones": 0.0
+      }
+    },
+    {
+      "comparison": "archived separate arm",
+      "rerun": 2,
+      "first_rollout_max_abs_differences": {
+        "returns": 41.87646484375,
+        "values": 89.19564819335938,
+        "advantages": 1.684006243944168,
+        "rewards": 24.481257438659668,
+        "dones": 0.0
+      }
+    },
+    {
+      "comparison": "rerun1 versus rerun2",
+      "rerun": null,
+      "first_rollout_max_abs_differences": {
+        "returns": 45.949371337890625,
+        "values": 89.88420104980469,
+        "advantages": 1.6362000107765198,
+        "rewards": 17.667420029640198,
+        "dones": 0.0
+      }
+    }
+  ],
+  "candidate_preserved": {
+    "ft_005.pt": "f6441a44044f436a5e5bda99643b357d63c10c74346db2b3bcb8443b502b7392",
+    "env_cfg.json": "0b2c4f7d3935a620861d1e8367983222beb0429e3ee59b670d84467af770a112",
+    "train_cfg.json": "56695528f15670eb766157968a860b67b550bf9912c5bcd64a8b7075182541ca",
+    "run_metadata.json": "1a7b1b4599c413fbfa99777cd1610bd0f9169606ef97c84a042f6ca0ab1191ea"
+  },
+  "conclusion": "Same archived code/config/seed produced 2.26s and 1.40s after five updates, versus 1.74s archived. First training rollout arrays already differ. Positive result exists, but training outcome is not reliably reproducible under this protocol.",
+  "limitations": "Two same-seed reruns, one training clip. Not independent seeds or a success-rate estimate. Full earlier joint-arm GPU execution history is not replayed. Root cause of divergence is not isolated. Candidate 2.26s not evaluated repeatedly or on other motions here."
+}

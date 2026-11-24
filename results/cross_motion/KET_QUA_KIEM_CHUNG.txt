@@ -1,0 +1,13 @@
+﻿KIỂM CHỨNG CHECKPOINT 2,26 GIÂY TRÊN NĂM CLIP KHÁC
+
+Đã kiểm tra toàn bộ checksum, checkpoint, evaluator, trạng thái ban đầu, gains; tái tính MPJPE từ tọa độ gốc. Đủ 20 lượt, không huấn luyện thêm.
+
+id02: thời gian trước reset 1.46 → 2.14 s; global MPJPE 176.80 → 102.81 mm; root-relative 102.21 → 68.40 mm; 72 bước chung.
+id03: thời gian trước reset 1.44 → 1.46 s; global MPJPE 200.01 → 195.28 mm; root-relative 116.92 → 119.17 mm; 71 bước chung.
+ood01: thời gian trước reset 0.84 → 0.84 s; global MPJPE 220.79 → 212.54 mm; root-relative 172.30 → 170.33 mm; 41 bước chung.
+ood02: thời gian trước reset 1.04 → 1.06 s; global MPJPE 374.65 → 361.32 mm; root-relative 175.84 → 174.67 mm; 51 bước chung.
+ood03: thời gian trước reset 1.21 → 1.12 s; global MPJPE 307.83 → 331.97 mm; root-relative 168.80 → 178.27 mm; 55 bước chung.
+
+Mỗi số là trung bình hai lượt cùng seed; không phải hai seed huấn luyện độc lập. Horizon loại frame kết thúc và được chọn sau khi chạy, riêng từng clip; không gộp các horizon khác nhau.
+Cải thiện rõ trên id02. id03 kéo dài 1 bước và giảm global MPJPE nhẹ nhưng root-relative tăng; ood01 không kéo dài; ood02 kéo dài 1 bước; ood03 ngắn hơn và sai số tăng. Tất cả 20 lượt reset sớm do gravity_x. Chưa bám hết clip.
+Checkpoint được chọn sau khi xem kết quả id01; các clip OOD từng được dùng chẩn đoán, không phải bộ kiểm định hoàn toàn chưa sử dụng. Không suy ra khả năng tổng quát rộng hoặc huấn luyện tái lập. Không thay checkpoint gốc cho mọi chuyển động. Giữ bản mới riêng cho demo id01/id02.

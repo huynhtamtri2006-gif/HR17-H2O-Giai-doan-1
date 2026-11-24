@@ -1,0 +1,59 @@
+{
+  "word": "Bao_cao_Giai_doan_1_HR17_Hoan_thien_FINAL_Cap_nhat_24_11_2026.docx",
+  "powerpoint": "HR17_Thuyet_trinh_Giai_doan_1_FINAL_Cap_nhat_24_11_2026.pptx",
+  "original_files_unchanged": true,
+  "original_hashes": {
+    "bao_cao_hr17\\Bao_cao_Giai_doan_1_HR17_Hoan_thien_FINAL_Cap_nhat_22_11_2026.docx": "5173fbdfe8cb3d56e4ad5192df15bcb46c1e1614d4475913666ee431f92f6206",
+    "slides_hr17\\HR17_Thuyet_trinh_Giai_doan_1_FINAL_Cap_nhat_22_11_2026.pptx": "ca6a7dcab6ad2a8680205b57a53d5e3d1793cf6aa458d8bb0b9cf03200b3a596"
+  },
+  "word_tables": 46,
+  "word_images": 21,
+  "code_styles_sections_assignments_preserved": true,
+  "old_media_preserved": true,
+  "new_word_section": "4.7",
+  "new_tables": [
+    "4.8",
+    "4.9",
+    "4.10"
+  ],
+  "renumbered_old_conclusion_table": "4.11",
+  "new_figures": [
+    "4.5",
+    "4.6"
+  ],
+  "new_slides": [
+    15,
+    16,
+    17
+  ],
+  "conclusion_slide": 18,
+  "total_slides": 23,
+  "numerical_source": "bao_cao_hr17\\Bo_sung_thuc_nghiem_24_11_2026\\Bang_ket_qua_6_clip.csv",
+  "final_pages": 51,
+  "pagination": [
+    {
+      "Text": "Kéo dài episode và kiểm chứng checkpoint mới",
+      "PhysicalPage": 22,
+      "DisplayedPage": 15
+    },
+    {
+      "Text": "Thời gian trước reset của hai checkpoint",
+      "PhysicalPage": 23,
+      "DisplayedPage": 16
+    },
+    {
+      "Text": "MPJPE trên tiền tố chung",
+      "PhysicalPage": 23,
+      "DisplayedPage": 16
+    },
+    {
+      "Text": "KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN",
+      "PhysicalPage": 26,
+      "DisplayedPage": 19
+    }
+  ],
+  "ppt_text_overflows": 0,
+  "original_cover_assignments_code_math_preserved": true,
+  "native_six_clip_chart_matches_csv": true,
+  "final_office_exports": true
+}

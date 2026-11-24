@@ -1,0 +1,155 @@
+{
+  "status": "independently_verified",
+  "source": "20261124_102308_376890.zip",
+  "source_sha256": "387ec27874408491450581bfb22382ef4e67ba81fa09b961d98c801f6420996d",
+  "verified_files": 250,
+  "no_training": true,
+  "evaluations": 10,
+  "recorded_control_frames": 980,
+  "physics_substeps": 3920,
+  "initial_states_equal_across_all_runs": true,
+  "controller_equal_across_all_runs": true,
+  "candidate_duration_reproduced_all_5": true,
+  "candidate_full_robot_trajectories_exact_across_5": true,
+  "candidate_robot_positions_exact_match_original_226_run": true,
+  "common_nonterminal_steps": 82,
+  "summaries": {
+    "baseline": {
+      "evaluations": 5,
+      "steps": [
+        83,
+        83,
+        83,
+        83,
+        83
+      ],
+      "reset_s_mean": 1.659999966621399,
+      "reset_s_min": 1.659999966621399,
+      "reset_s_max": 1.659999966621399,
+      "global_mpjpe_mm_mean": 160.2041280642048,
+      "root_relative_mpjpe_mm_mean": 95.0713046934842
+    },
+    "candidate226": {
+      "evaluations": 5,
+      "steps": [
+        113,
+        113,
+        113,
+        113,
+        113
+      ],
+      "reset_s_mean": 2.259999990463257,
+      "reset_s_min": 2.259999990463257,
+      "reset_s_max": 2.259999990463257,
+      "global_mpjpe_mm_mean": 87.14213288240568,
+      "root_relative_mpjpe_mm_mean": 66.6619578047159
+    }
+  },
+  "results": [
+    {
+      "case": "baseline_r1",
+      "arm": "baseline",
+      "repeat": 1,
+      "steps": 83,
+      "reset_s": 1.659999966621399,
+      "common_nonterminal_steps": 82,
+      "global_mpjpe_mm": 160.19672011017374,
+      "root_relative_mpjpe_mm": 95.0701830826311
+    },
+    {
+      "case": "candidate226_r1",
+      "arm": "candidate226",
+      "repeat": 1,
+      "steps": 113,
+      "reset_s": 2.259999990463257,
+      "common_nonterminal_steps": 82,
+      "global_mpjpe_mm": 87.14213288240568,
+      "root_relative_mpjpe_mm": 66.6619578047159
+    },
+    {
+      "case": "candidate226_r2",
+      "arm": "candidate226",
+      "repeat": 2,
+      "steps": 113,
+      "reset_s": 2.259999990463257,
+      "common_nonterminal_steps": 82,
+      "global_mpjpe_mm": 87.14213288240568,
+      "root_relative_mpjpe_mm": 66.6619578047159
+    },
+    {
+      "case": "baseline_r2",
+      "arm": "baseline",
+      "repeat": 2,
+      "steps": 83,
+      "reset_s": 1.659999966621399,
+      "common_nonterminal_steps": 82,
+      "global_mpjpe_mm": 160.19672011017374,
+      "root_relative_mpjpe_mm": 95.0701830826311
+    },
+    {
+      "case": "baseline_r3",
+      "arm": "baseline",
+      "repeat": 3,
+      "steps": 83,
+      "reset_s": 1.659999966621399,
+      "common_nonterminal_steps": 82,
+      "global_mpjpe_mm": 160.19672011017374,
+      "root_relative_mpjpe_mm": 95.0701830826311
+    },
+    {
+      "case": "candidate226_r3",
+      "arm": "candidate226",
+      "repeat": 3,
+      "steps": 113,
+      "reset_s": 2.259999990463257,
+      "common_nonterminal_steps": 82,
+      "global_mpjpe_mm": 87.14213288240568,
+      "root_relative_mpjpe_mm": 66.6619578047159
+    },
+    {
+      "case": "candidate226_r4",
+      "arm": "candidate226",
+      "repeat": 4,
+      "steps": 113,
+      "reset_s": 2.259999990463257,
+      "common_nonterminal_steps": 82,
+      "global_mpjpe_mm": 87.14213288240568,
+      "root_relative_mpjpe_mm": 66.6619578047159
+    },
+    {
+      "case": "baseline_r4",
+      "arm": "baseline",
+      "repeat": 4,
+      "steps": 83,
+      "reset_s": 1.659999966621399,
+      "common_nonterminal_steps": 82,
+      "global_mpjpe_mm": 160.19672011017374,
+      "root_relative_mpjpe_mm": 95.0701830826311
+    },
+    {
+      "case": "baseline_r5",
+      "arm": "baseline",
+      "repeat": 5,
+      "steps": 83,
+      "reset_s": 1.659999966621399,
+      "common_nonterminal_steps": 82,
+      "global_mpjpe_mm": 160.23375988032913,
+      "root_relative_mpjpe_mm": 95.07579113689656
+    },
+    {
+      "case": "candidate226_r5",
+      "arm": "candidate226",
+      "repeat": 5,
+      "steps": 113,
+      "reset_s": 2.259999990463257,
+      "common_nonterminal_steps": 82,
+      "global_mpjpe_mm": 87.14213288240568,
+      "root_relative_mpjpe_mm": 66.6619578047159
+    }
+  ],
+  "duration_gain_s": 0.6000000238418579,
+  "duration_gain_percent": 36.144580476289946,
+  "global_mpjpe_reduction_percent": 45.605563392547644,
+  "all_rollouts_reset_early_by_gravity_x": true,
+  "limits": "Five same-seed evaluations of a post-hoc selected checkpoint on one training clip. Confirms replay repeatability under these conditions, not stable training, independent-seed success, held-out performance or completion of the 5.23s motion."
+}

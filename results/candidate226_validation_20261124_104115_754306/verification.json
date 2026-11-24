@@ -1,0 +1,179 @@
+{
+  "status": "independently_verified",
+  "source": "20261124_104115_754306.zip",
+  "source_sha256": "b4437e2ac630ae5ff1c4ba87a90cd0a9bb5abca101ed8986d19b643ef6d189e6",
+  "verified_files": 481,
+  "rollouts": 20,
+  "recorded_control_frames": 1261,
+  "physics_steps": 5044,
+  "no_training": true,
+  "all_initial_states_identical_within_motion": true,
+  "controller_gains_equal_between_arms": true,
+  "checkpoint_bytes_match_audited_comparison": true,
+  "all_reset_early_by_gravity_x": true,
+  "motions": [
+    {
+      "motion_id": "id02",
+      "group": "training_pool",
+      "common_nonterminal_steps": 72,
+      "baseline_time_s": 1.459999918937683,
+      "candidate_time_s": 2.1399998664855957,
+      "delta_time_s": 0.6799999475479126,
+      "baseline_global_mm": 176.7984968492351,
+      "candidate_global_mm": 102.81313066090397,
+      "baseline_root_relative_mm": 102.20727781087795,
+      "candidate_root_relative_mm": 68.40394994238078
+    },
+    {
+      "motion_id": "id03",
+      "group": "training_pool",
+      "common_nonterminal_steps": 71,
+      "baseline_time_s": 1.4399999380111694,
+      "candidate_time_s": 1.459999918937683,
+      "delta_time_s": 0.019999980926513672,
+      "baseline_global_mm": 200.0066356764733,
+      "candidate_global_mm": 195.27520862593406,
+      "baseline_root_relative_mm": 116.9160355014099,
+      "candidate_root_relative_mm": 119.17024114151593
+    },
+    {
+      "motion_id": "ood01",
+      "group": "held_out_motion",
+      "common_nonterminal_steps": 41,
+      "baseline_time_s": 0.8399999737739563,
+      "candidate_time_s": 0.8399999737739563,
+      "delta_time_s": 0.0,
+      "baseline_global_mm": 220.7889983670828,
+      "candidate_global_mm": 212.5405094295356,
+      "baseline_root_relative_mm": 172.29794429311508,
+      "candidate_root_relative_mm": 170.33166273143635
+    },
+    {
+      "motion_id": "ood02",
+      "group": "held_out_motion",
+      "common_nonterminal_steps": 51,
+      "baseline_time_s": 1.0399999618530273,
+      "candidate_time_s": 1.059999942779541,
+      "delta_time_s": 0.019999980926513672,
+      "baseline_global_mm": 374.65258068296794,
+      "candidate_global_mm": 361.32240849320686,
+      "baseline_root_relative_mm": 175.84146823771945,
+      "candidate_root_relative_mm": 174.67173578611687
+    },
+    {
+      "motion_id": "ood03",
+      "group": "held_out_motion",
+      "common_nonterminal_steps": 55,
+      "baseline_time_s": 1.2099999785423279,
+      "candidate_time_s": 1.1200000047683716,
+      "delta_time_s": -0.0899999737739563,
+      "baseline_global_mm": 307.8252631383775,
+      "candidate_global_mm": 331.97025229906393,
+      "baseline_root_relative_mm": 168.80423731726952,
+      "candidate_root_relative_mm": 178.26564509257395
+    }
+  ],
+  "repeat_audit": [
+    {
+      "motion_id": "id02",
+      "arm": "baseline",
+      "exact_positions": false,
+      "max_body_point_difference_mm": 0.803996130127947,
+      "repeat_times_s": [
+        1.459999918937683,
+        1.459999918937683
+      ]
+    },
+    {
+      "motion_id": "id02",
+      "arm": "candidate226",
+      "exact_positions": true,
+      "max_body_point_difference_mm": 0.0,
+      "repeat_times_s": [
+        2.1399998664855957,
+        2.1399998664855957
+      ]
+    },
+    {
+      "motion_id": "id03",
+      "arm": "baseline",
+      "exact_positions": true,
+      "max_body_point_difference_mm": 0.0,
+      "repeat_times_s": [
+        1.4399999380111694,
+        1.4399999380111694
+      ]
+    },
+    {
+      "motion_id": "id03",
+      "arm": "candidate226",
+      "exact_positions": true,
+      "max_body_point_difference_mm": 0.0,
+      "repeat_times_s": [
+        1.459999918937683,
+        1.459999918937683
+      ]
+    },
+    {
+      "motion_id": "ood01",
+      "arm": "baseline",
+      "exact_positions": true,
+      "max_body_point_difference_mm": 0.0,
+      "repeat_times_s": [
+        0.8399999737739563,
+        0.8399999737739563
+      ]
+    },
+    {
+      "motion_id": "ood01",
+      "arm": "candidate226",
+      "exact_positions": true,
+      "max_body_point_difference_mm": 0.0,
+      "repeat_times_s": [
+        0.8399999737739563,
+        0.8399999737739563
+      ]
+    },
+    {
+      "motion_id": "ood02",
+      "arm": "baseline",
+      "exact_positions": true,
+      "max_body_point_difference_mm": 0.0,
+      "repeat_times_s": [
+        1.0399999618530273,
+        1.0399999618530273
+      ]
+    },
+    {
+      "motion_id": "ood02",
+      "arm": "candidate226",
+      "exact_positions": true,
+      "max_body_point_difference_mm": 0.0,
+      "repeat_times_s": [
+        1.059999942779541,
+        1.059999942779541
+      ]
+    },
+    {
+      "motion_id": "ood03",
+      "arm": "baseline",
+      "exact_positions": false,
+      "max_body_point_difference_mm": 22.90123234295723,
+      "repeat_times_s": [
+        1.1999999284744263,
+        1.2200000286102295
+      ]
+    },
+    {
+      "motion_id": "ood03",
+      "arm": "candidate226",
+      "exact_positions": true,
+      "max_body_point_difference_mm": 0.0,
+      "repeat_times_s": [
+        1.1200000047683716,
+        1.1200000047683716
+      ]
+    }
+  ],
+  "limits": "Post-selection, one trained candidate/seed; reruns are not independent training seeds. Common horizons selected post hoc per motion. Same-seed repeats show some physics differences; no broad generalization or full-motion success."
+}

@@ -1,0 +1,329 @@
+[
+  {
+    "source": "bao_cao_hr17/Bao_cao_Giai_doan_1_HR17_Hoan_thien_FINAL_Cap_nhat_24_11_2026.docx",
+    "destination": "docs/Bao_cao_Giai_doan_1_HR17_Hoan_thien_FINAL_Cap_nhat_24_11_2026.docx",
+    "source_sha256": "5cc8b3b9eaf2a7952ddf769c4fbcb2e86f3db225da8df26e535acb7911cffd47",
+    "uploaded_sha256": "5cc8b3b9eaf2a7952ddf769c4fbcb2e86f3db225da8df26e535acb7911cffd47"
+  },
+  {
+    "source": "bao_cao_hr17/Bao_cao_Giai_doan_1_HR17_Hoan_thien_FINAL_Cap_nhat_24_11_2026.pdf",
+    "destination": "docs/Bao_cao_Giai_doan_1_HR17_Hoan_thien_FINAL_Cap_nhat_24_11_2026.pdf",
+    "source_sha256": "c3514a86707cdafa66a276fbc7002efd569042012fed93cc6ff990013ad9fadb",
+    "uploaded_sha256": "c3514a86707cdafa66a276fbc7002efd569042012fed93cc6ff990013ad9fadb"
+  },
+  {
+    "source": "slides_hr17/HR17_Thuyet_trinh_Giai_doan_1_FINAL_Cap_nhat_24_11_2026.pptx",
+    "destination": "docs/HR17_Thuyet_trinh_Giai_doan_1_FINAL_Cap_nhat_24_11_2026.pptx",
+    "source_sha256": "a3654ffd0e04f0117e6c7ea7317c661d01d76880b8ece39c74077bedff5bcff8",
+    "uploaded_sha256": "a3654ffd0e04f0117e6c7ea7317c661d01d76880b8ece39c74077bedff5bcff8"
+  },
+  {
+    "source": "slides_hr17/HR17_Thuyet_trinh_Giai_doan_1_FINAL_Cap_nhat_24_11_2026.pdf",
+    "destination": "docs/HR17_Thuyet_trinh_Giai_doan_1_FINAL_Cap_nhat_24_11_2026.pdf",
+    "source_sha256": "0cc925c8bbc16c728c38451c344dc8f36cba28f8a3e07f76255a667ba19eff5a",
+    "uploaded_sha256": "0cc925c8bbc16c728c38451c344dc8f36cba28f8a3e07f76255a667ba19eff5a"
+  },
+  {
+    "source": "hr17_log_review/demo_checkpoint_226/HR17_SO_SANH_ID01_1p66_2p26.mp4",
+    "destination": "demo/HR17_SO_SANH_ID01_1p66_2p26.mp4",
+    "source_sha256": "513760d9ecf728beefa70ace2337facccb5ea29a9747afb192009646c5099093",
+    "uploaded_sha256": "513760d9ecf728beefa70ace2337facccb5ea29a9747afb192009646c5099093"
+  },
+  {
+    "source": "hr17_log_review/demo_checkpoint_226/khung_083.png",
+    "destination": "demo/khung_083.png",
+    "source_sha256": "2b284975837b6b7ff0f0afa117f23a1e3f0dd6288dbfce27630ae85190bbbbea",
+    "uploaded_sha256": "2b284975837b6b7ff0f0afa117f23a1e3f0dd6288dbfce27630ae85190bbbbea"
+  },
+  {
+    "source": "HR17_Khoi_phuc_H2O_FINAL.ipynb",
+    "destination": "notebooks/HR17_Khoi_phuc_H2O_FINAL.ipynb",
+    "source_sha256": "f9e883c4e5a4f8ce7551f6bba78c0a81ca167884677e9a17f07b07a8764e3bbc",
+    "uploaded_sha256": "f98f52caacd4d062acb2daf35da57a5db426414cf929164bfb40d2671ca6ddae",
+    "change": "Cleared outputs, execution counts and metadata; code unchanged"
+  },
+  {
+    "source": "HR17_HUAN_LUYEN_3SEED.ipynb",
+    "destination": "notebooks/HR17_HUAN_LUYEN_3SEED.ipynb",
+    "source_sha256": "8980bfcedcfd987a2985c54552ae4894a72a87fe0ffb5f9bbadc29ae2ead7b2f",
+    "uploaded_sha256": "385d1237b226f8b393e848c499a1edc2c305c7b2cd507d482c7b1b58c83837b0",
+    "change": "Cleared outputs, execution counts and metadata; code unchanged"
+  },
+  {
+    "source": "HR17_Danh_gia_6_Motion_ID_OOD_FINAL.ipynb",
+    "destination": "notebooks/HR17_Danh_gia_6_Motion_ID_OOD_FINAL.ipynb",
+    "source_sha256": "5e953b0cb6ea11cd13480c1fe3d6712da4c3c8405ceb6c1b7f852b3967304270",
+    "uploaded_sha256": "872101823429e231f5e06e42440f84a43416b4bd989925718d059257c22f942b",
+    "change": "Cleared outputs, execution counts and metadata; code unchanged"
+  },
+  {
+    "source": "HUONG_DAN_MO_LAI_HR17_ID_OOD_24_11_2026.txt",
+    "destination": "notebooks/HUONG_DAN_MO_LAI_24_11_2026.txt",
+    "source_sha256": "2559183a11cca97da10aeeff2b6678e10e20371521b54efdb86c11353fa1180a",
+    "uploaded_sha256": "2559183a11cca97da10aeeff2b6678e10e20371521b54efdb86c11353fa1180a"
+  },
+  {
+    "source": "hr17_compare_ppo_clipping.py",
+    "destination": "src/hr17_compare_ppo_clipping.py",
+    "source_sha256": "b2257578dba7c1129739d11b78e5689d1f9d1b946819315f52bfcd9a398619fe",
+    "uploaded_sha256": "b2257578dba7c1129739d11b78e5689d1f9d1b946819315f52bfcd9a398619fe"
+  },
+  {
+    "source": "hr17_diagnose_ppo_5updates.py",
+    "destination": "src/hr17_diagnose_ppo_5updates.py",
+    "source_sha256": "1cb5c8c39f9dea795bce966fefc27a46e2c8be2c21de81e08b0c70c3ad617505",
+    "uploaded_sha256": "1cb5c8c39f9dea795bce966fefc27a46e2c8be2c21de81e08b0c70c3ad617505"
+  },
+  {
+    "source": "hr17_evaluate_motion_id_ood.py",
+    "destination": "src/hr17_evaluate_motion_id_ood.py",
+    "source_sha256": "f3e66aacaa444feffcde2c5b4b7b4a7812ac5b5af45b2c3f90706ba40a1e846d",
+    "uploaded_sha256": "f3e66aacaa444feffcde2c5b4b7b4a7812ac5b5af45b2c3f90706ba40a1e846d"
+  },
+  {
+    "source": "hr17_finetune_single_motion.py",
+    "destination": "src/hr17_finetune_single_motion.py",
+    "source_sha256": "74f965b3c27141edfd6cadbe76c6b1f63c591eb92dab601fa694d6e8088bca55",
+    "uploaded_sha256": "74f965b3c27141edfd6cadbe76c6b1f63c591eb92dab601fa694d6e8088bca55"
+  },
+  {
+    "source": "hr17_probe_actor_inputs.py",
+    "destination": "src/hr17_probe_actor_inputs.py",
+    "source_sha256": "0021a6d73a0a14c2725daa1dc5be82acd98ca4910932f12943736e474ae2f0f7",
+    "uploaded_sha256": "0021a6d73a0a14c2725daa1dc5be82acd98ca4910932f12943736e474ae2f0f7"
+  },
+  {
+    "source": "hr17_probe_torso_orientation.py",
+    "destination": "src/hr17_probe_torso_orientation.py",
+    "source_sha256": "e13ccf5446d8264a1723573feded422183fa327a01d8acf87551986b46294a58",
+    "uploaded_sha256": "e13ccf5446d8264a1723573feded422183fa327a01d8acf87551986b46294a58"
+  },
+  {
+    "source": "hr17_repeat_ankle_damping.py",
+    "destination": "src/hr17_repeat_ankle_damping.py",
+    "source_sha256": "8f7f69196c5c8a491e583c5de51824a0afb886f75af18d8633261fe206dc6d60",
+    "uploaded_sha256": "8f7f69196c5c8a491e583c5de51824a0afb886f75af18d8633261fe206dc6d60"
+  },
+  {
+    "source": "hr17_repeat_candidate_226.py",
+    "destination": "src/hr17_repeat_candidate_226.py",
+    "source_sha256": "8f7584dd097d409302e42d844a5172f18abad30337b5d70e4bcd61bfdf4c389a",
+    "uploaded_sha256": "8f7584dd097d409302e42d844a5172f18abad30337b5d70e4bcd61bfdf4c389a"
+  },
+  {
+    "source": "hr17_reproduce_separate5.py",
+    "destination": "src/hr17_reproduce_separate5.py",
+    "source_sha256": "fb03d92b380a357caa834cb4017abfd852b086133e3ce66e226dbfa8dd515704",
+    "uploaded_sha256": "fb03d92b380a357caa834cb4017abfd852b086133e3ce66e226dbfa8dd515704"
+  },
+  {
+    "source": "hr17_test_ankle_damping.py",
+    "destination": "src/hr17_test_ankle_damping.py",
+    "source_sha256": "d042aec4b37c619ff3c592d0117482631cde47417bce2be2b4eff8799203eb94",
+    "uploaded_sha256": "d042aec4b37c619ff3c592d0117482631cde47417bce2be2b4eff8799203eb94"
+  },
+  {
+    "source": "hr17_test_initial_lift.py",
+    "destination": "src/hr17_test_initial_lift.py",
+    "source_sha256": "f741fe37b77d07bf05a1f9244dafceee8f8850459afb1a0e100530681f40eab1",
+    "uploaded_sha256": "f741fe37b77d07bf05a1f9244dafceee8f8850459afb1a0e100530681f40eab1"
+  },
+  {
+    "source": "hr17_test_startup_gravity.py",
+    "destination": "src/hr17_test_startup_gravity.py",
+    "source_sha256": "9204d1468f474bd6a5a2765fa478e1100f5e096b5b7f408291422d2c050fbd52",
+    "uploaded_sha256": "9204d1468f474bd6a5a2765fa478e1100f5e096b5b7f408291422d2c050fbd52"
+  },
+  {
+    "source": "hr17_test_training_start_zero.py",
+    "destination": "src/hr17_test_training_start_zero.py",
+    "source_sha256": "9ee32a3d613fd244f3ba4b8b76b40ec36f45adfe6922152922e3f26b42ae3e12",
+    "uploaded_sha256": "9ee32a3d613fd244f3ba4b8b76b40ec36f45adfe6922152922e3f26b42ae3e12"
+  },
+  {
+    "source": "hr17_train_separate_clipping_25.py",
+    "destination": "src/hr17_train_separate_clipping_25.py",
+    "source_sha256": "e9aca0b58e268f9f45b93c2f0853ae07b725c61914beff8296bb924601d64250",
+    "uploaded_sha256": "e9aca0b58e268f9f45b93c2f0853ae07b725c61914beff8296bb924601d64250"
+  },
+  {
+    "source": "hr17_validate_ankle_damping.py",
+    "destination": "src/hr17_validate_ankle_damping.py",
+    "source_sha256": "e7bbd74c17a0ad1445ddf09a74d2237eb509fc4f09816b38bc6ccc210c626e19",
+    "uploaded_sha256": "e7bbd74c17a0ad1445ddf09a74d2237eb509fc4f09816b38bc6ccc210c626e19"
+  },
+  {
+    "source": "hr17_validate_candidate226_5motions.py",
+    "destination": "src/hr17_validate_candidate226_5motions.py",
+    "source_sha256": "8be5e40fd191de5ee4d8b2ed1d47555e3c321948d92ae6ce10113bd48912c960",
+    "uploaded_sha256": "8be5e40fd191de5ee4d8b2ed1d47555e3c321948d92ae6ce10113bd48912c960"
+  },
+  {
+    "source": "hr17_validate_clipping_6motions.py",
+    "destination": "src/hr17_validate_clipping_6motions.py",
+    "source_sha256": "128a0d22c2f971c31d2f6ccaed570a546f60221e51bf2721dd6f7bb4e4de2195",
+    "uploaded_sha256": "128a0d22c2f971c31d2f6ccaed570a546f60221e51bf2721dd6f7bb4e4de2195"
+  },
+  {
+    "source": "hr17_log_review/hr17_restore_latest_session.py",
+    "destination": "src/hr17_restore_latest_session.py",
+    "source_sha256": "e696762e17a038a58d8afe1a1e77bf5bb0440d9f31fba0976dae218869362abd",
+    "uploaded_sha256": "e696762e17a038a58d8afe1a1e77bf5bb0440d9f31fba0976dae218869362abd"
+  },
+  {
+    "source": "hr17_log_review/hr17_recheck_native_import.py",
+    "destination": "src/hr17_recheck_native_import.py",
+    "source_sha256": "8d785e6ae63c993e40bfcd8be2a5413c9d34b306d123f2aefe9459ba2f48220e",
+    "uploaded_sha256": "8d785e6ae63c993e40bfcd8be2a5413c9d34b306d123f2aefe9459ba2f48220e"
+  },
+  {
+    "source": "hr17_log_review/hr17_native_diagnosis_v3.py",
+    "destination": "src/hr17_native_diagnosis_v3.py",
+    "source_sha256": "7ff3056d64a88db06dd424fac0ff731836bd3fd6cec706a3e1edcd2bba38b398",
+    "uploaded_sha256": "7ff3056d64a88db06dd424fac0ff731836bd3fd6cec706a3e1edcd2bba38b398"
+  },
+  {
+    "source": "hr17_log_review/hr17_train_three_seeds.py",
+    "destination": "src/hr17_train_three_seeds.py",
+    "source_sha256": "728922b5a78b557f24ebe9bb8a14a05abf70e74c0dcda9fd7ea4bffe3a5b5785",
+    "uploaded_sha256": "728922b5a78b557f24ebe9bb8a14a05abf70e74c0dcda9fd7ea4bffe3a5b5785"
+  },
+  {
+    "source": "hr17_log_review/hr17_evaluate_three_seeds.py",
+    "destination": "src/hr17_evaluate_three_seeds.py",
+    "source_sha256": "d0e41534dc11fde8edc061d23899d99ae4432b2e387400f50db04c3a95a3e34d",
+    "uploaded_sha256": "d0e41534dc11fde8edc061d23899d99ae4432b2e387400f50db04c3a95a3e34d"
+  },
+  {
+    "source": "hr17_log_review/hr17_train_fresh.py",
+    "destination": "src/hr17_train_fresh.py",
+    "source_sha256": "3274a1f7d6f2f1928e273dae23f64f139ecc81918b911c973637e808663ba466",
+    "uploaded_sha256": "3274a1f7d6f2f1928e273dae23f64f139ecc81918b911c973637e808663ba466"
+  },
+  {
+    "source": "hr17_log_review/hr17_sim2sim_mass.py",
+    "destination": "src/hr17_sim2sim_mass.py",
+    "source_sha256": "a81c5379fbbed26eb800c5a53b3fe4072a4dca26889fef31c87da74a7047ab6d",
+    "uploaded_sha256": "a81c5379fbbed26eb800c5a53b3fe4072a4dca26889fef31c87da74a7047ab6d"
+  },
+  {
+    "source": "hr17_log_review/hr17_sim2sim_friction.py",
+    "destination": "src/hr17_sim2sim_friction.py",
+    "source_sha256": "dc044a4a7a2eb403f6ffec77278be12721e3053f18afb61e554539fb07ff2312",
+    "uploaded_sha256": "dc044a4a7a2eb403f6ffec77278be12721e3053f18afb61e554539fb07ff2312"
+  },
+  {
+    "source": "hr17_log_review/hr17_sim2sim_delay.py",
+    "destination": "src/hr17_sim2sim_delay.py",
+    "source_sha256": "4abfa5aa01dcb37fba2548eb113384e397951a146a7f41225a1ffd2604a36e6d",
+    "uploaded_sha256": "4abfa5aa01dcb37fba2548eb113384e397951a146a7f41225a1ffd2604a36e6d"
+  },
+  {
+    "source": "hr17_log_review/hr17_test_elbow_first_step.py",
+    "destination": "src/hr17_test_elbow_first_step.py",
+    "source_sha256": "83986f9a347f8c7923e2c9dd9e50dfe5958fb64541cbbf01fc5da5db8435c903",
+    "uploaded_sha256": "83986f9a347f8c7923e2c9dd9e50dfe5958fb64541cbbf01fc5da5db8435c903"
+  },
+  {
+    "source": "hr17_log_review/hr17_test_elbow_episode.py",
+    "destination": "src/hr17_test_elbow_episode.py",
+    "source_sha256": "d6101813e974c35bbe43ebe49f4457012677039428a56ac0f6db429c02da1d16",
+    "uploaded_sha256": "d6101813e974c35bbe43ebe49f4457012677039428a56ac0f6db429c02da1d16"
+  },
+  {
+    "source": "hr17_log_review/reproduce_separate5_20261124_101330_883796/verification.json",
+    "destination": "results/reproduce_separate5_20261124_101330_883796/verification.json",
+    "source_sha256": "33845718f4da2676673b0fecf30c79856951c530820ab51b91bb7de971079f5b",
+    "uploaded_sha256": "33845718f4da2676673b0fecf30c79856951c530820ab51b91bb7de971079f5b"
+  },
+  {
+    "source": "hr17_log_review/candidate_226_replay_20261124_102308_376890/verification.json",
+    "destination": "results/candidate_226_replay_20261124_102308_376890/verification.json",
+    "source_sha256": "db25e054b74574ace5d058d71bce56faf61585fb50c832ab1dbd2a415e71a77e",
+    "uploaded_sha256": "db25e054b74574ace5d058d71bce56faf61585fb50c832ab1dbd2a415e71a77e"
+  },
+  {
+    "source": "hr17_log_review/candidate226_validation_20261124_104115_754306/verification.json",
+    "destination": "results/candidate226_validation_20261124_104115_754306/verification.json",
+    "source_sha256": "0fbef42c90c5d2cf6a75f7c97ead9caa5f128a030e772a4c5e72c8903ac28c64",
+    "uploaded_sha256": "0fbef42c90c5d2cf6a75f7c97ead9caa5f128a030e772a4c5e72c8903ac28c64"
+  },
+  {
+    "source": "hr17_log_review/candidate226_validation_20261124_104115_754306/verified_motion_comparison.csv",
+    "destination": "results/cross_motion/verified_motion_comparison.csv",
+    "source_sha256": "2899e262ee85d64242534abaa3b869d6a251b1d3bc9371b3535a882222013a5b",
+    "uploaded_sha256": "2899e262ee85d64242534abaa3b869d6a251b1d3bc9371b3535a882222013a5b"
+  },
+  {
+    "source": "hr17_log_review/candidate226_validation_20261124_104115_754306/verified_rollouts.csv",
+    "destination": "results/cross_motion/verified_rollouts.csv",
+    "source_sha256": "77d0381cc5d15cf271110fc5dbe9cd651e706a586aafc72dd29f0ac4a8c77e06",
+    "uploaded_sha256": "77d0381cc5d15cf271110fc5dbe9cd651e706a586aafc72dd29f0ac4a8c77e06"
+  },
+  {
+    "source": "hr17_log_review/candidate226_validation_20261124_104115_754306/KET_QUA_KIEM_CHUNG.txt",
+    "destination": "results/cross_motion/KET_QUA_KIEM_CHUNG.txt",
+    "source_sha256": "381665a40dd2cd13cc990c3611fd179f761aa9acd1e2cb3ff1edd7c29c19352a",
+    "uploaded_sha256": "381665a40dd2cd13cc990c3611fd179f761aa9acd1e2cb3ff1edd7c29c19352a"
+  },
+  {
+    "source": "hr17_log_review/candidate226_validation_20261124_104115_754306/clipping_validation.png",
+    "destination": "results/cross_motion/clipping_validation.png",
+    "source_sha256": "4fdf82fcd5bbcbba77e7f883004964821c68ade65c6209f5194a5409f7fa45f0",
+    "uploaded_sha256": "4fdf82fcd5bbcbba77e7f883004964821c68ade65c6209f5194a5409f7fa45f0"
+  },
+  {
+    "source": "bao_cao_hr17/Bo_sung_thuc_nghiem_24_11_2026/Bang_ket_qua_6_clip.csv",
+    "destination": "results/Bang_ket_qua_6_clip.csv",
+    "source_sha256": "e37ae5b865a92efa8cd3c89a058f603fbb947fac9863244589fc89a6c484a4c8",
+    "uploaded_sha256": "e37ae5b865a92efa8cd3c89a058f603fbb947fac9863244589fc89a6c484a4c8"
+  },
+  {
+    "source": "bao_cao_hr17/Kiem_tra_ban_giao_24_11_2026.json",
+    "destination": "results/Kiem_tra_ban_giao_24_11_2026.json",
+    "source_sha256": "1dd8e493afa18e94f212d0967342109a93c854f32b0e7eae0509de987e3b8d3b",
+    "uploaded_sha256": "1dd8e493afa18e94f212d0967342109a93c854f32b0e7eae0509de987e3b8d3b"
+  },
+  {
+    "source": "README.md",
+    "destination": "third_party/UPSTREAM_README.md",
+    "source_sha256": "c5f4d875ee9792208640e2e6bb95a5abd757e1276d821e119d7ffb7c7298d3a7",
+    "uploaded_sha256": "c5f4d875ee9792208640e2e6bb95a5abd757e1276d821e119d7ffb7c7298d3a7"
+  },
+  {
+    "source": "LICENSE-CC-BY-NC-4.0.md",
+    "destination": "third_party/LICENSE-CC-BY-NC-4.0.md",
+    "source_sha256": "927ed77250c602dca74b50799a38a80a3b809c024c30ed392c9426ecd3a2ffb0",
+    "uploaded_sha256": "927ed77250c602dca74b50799a38a80a3b809c024c30ed392c9426ecd3a2ffb0"
+  },
+  {
+    "source": "legged_gym/legged_gym/LICENSE",
+    "destination": "third_party/legged_gym_LICENSE",
+    "source_sha256": "93213abd7c2b1ad2fc70fe08dab8831c7daa0fba5f4d167c6ed4200c7afad67e",
+    "uploaded_sha256": "93213abd7c2b1ad2fc70fe08dab8831c7daa0fba5f4d167c6ed4200c7afad67e"
+  },
+  {
+    "source": "rsl_rl/LICENSE",
+    "destination": "third_party/rsl_rl_LICENSE",
+    "source_sha256": "6234d0c42436e78326ed2cb9eae339a9674c37154e894f3a9b24f8c3cd4b5ee4",
+    "uploaded_sha256": "6234d0c42436e78326ed2cb9eae339a9674c37154e894f3a9b24f8c3cd4b5ee4"
+  },
+  {
+    "source": "requirements.txt",
+    "destination": "requirements_upstream.txt",
+    "source_sha256": "640d6981c73cc3119c0bd9578e953434be06db67f3dbad76ea9275b108996195",
+    "uploaded_sha256": "640d6981c73cc3119c0bd9578e953434be06db67f3dbad76ea9275b108996195"
+  },
+  {
+    "source": "bao_cao_hr17/Bao_cao_Giai_doan_1_HR17_Hoan_thien_FINAL_Cap_nhat_24_11_2026.docx",
+    "destination": "BAO_CAO_VA_THUYET_TRINH/Bao_cao_Giai_doan_1_HR17_Hoan_thien_FINAL_Cap_nhat_24_11_2026.docx",
+    "source_sha256": "5cc8b3b9eaf2a7952ddf769c4fbcb2e86f3db225da8df26e535acb7911cffd47",
+    "uploaded_sha256": "5cc8b3b9eaf2a7952ddf769c4fbcb2e86f3db225da8df26e535acb7911cffd47"
+  },
+  {
+    "source": "slides_hr17/HR17_Thuyet_trinh_Giai_doan_1_FINAL_Cap_nhat_24_11_2026.pptx",
+    "destination": "BAO_CAO_VA_THUYET_TRINH/HR17_Thuyet_trinh_Giai_doan_1_FINAL_Cap_nhat_24_11_2026.pptx",
+    "source_sha256": "a3654ffd0e04f0117e6c7ea7317c661d01d76880b8ece39c74077bedff5bcff8",
+    "uploaded_sha256": "a3654ffd0e04f0117e6c7ea7317c661d01d76880b8ece39c74077bedff5bcff8"
+  }
+]
