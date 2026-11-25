@@ -1,67 +1,50 @@
-# HR17 — Báo cáo giai đoạn 1
+# HR17 — Báo cáo giai đoạn 1 — Nhóm 17
 
-Ánh xạ chuyển động người sang robot: kiểm chứng thu gọn H2O trên Unitree H1.
-Ngày chốt kết quả: 24/11/2026. Bộ này chuẩn bị cho repository PRIVATE để nộp học phần.
+Đề tài: Ánh xạ chuyển động người sang robot — kiểm chứng thu gọn cấu hình H2O trên robot Unitree H1.
 
-## Mở nhanh báo cáo và slide
+- Lớp: 15DHTH07.
+- Giảng viên hướng dẫn: Nguyễn Tuấn Anh.
+- Thành viên: Cao Minh Luân và Huỳnh Tâm Trí.
+- Dữ liệu thực nghiệm được tổng hợp đến ngày 24/11/2026.
+- Báo cáo và slide được biên tập, đồng bộ ngày 25/11/2026.
 
-Hai file có thể chỉnh sửa nằm trong thư mục [BAO_CAO_VA_THUYET_TRINH](BAO_CAO_VA_THUYET_TRINH/):
+Repository công khai phục vụ lưu trữ, xem và tải tài liệu báo cáo giai đoạn 1.
 
-- [Báo cáo Word — cập nhật 24/11/2026](BAO_CAO_VA_THUYET_TRINH/Bao_cao_Giai_doan_1_HR17_Hoan_thien_FINAL_Cap_nhat_24_11_2026.docx)
-- [PowerPoint — cập nhật 24/11/2026](BAO_CAO_VA_THUYET_TRINH/HR17_Thuyet_trinh_Giai_doan_1_FINAL_Cap_nhat_24_11_2026.pptx)
+## Báo cáo và slide mới nhất
 
-Đây là hai bản sao trùng nội dung với file tương ứng trong docs/; các bản PDF vẫn ở docs/.
+Các tài liệu được lưu trong thư mục [docs](docs/).
 
-## Cấu trúc
+- [Báo cáo Word](<docs/BÁO CÁO GIAI ĐOẠN 1 - NHÓM 17.docx>)
+- [Slide PowerPoint](<docs/SLIDE THUYẾT TRÌNH GIAI ĐOẠN 1 - NHÓM 17.pptx>)
 
-- BAO_CAO_VA_THUYET_TRINH/: hai file Word và PowerPoint chính để mở nhanh.
-- docs/: báo cáo Word/PDF và PowerPoint/PDF.
-- demo/: video id01 và khung hình từ dữ liệu mô phỏng.
-- notebooks/: notebook lịch sử; bỏ output và metadata ở bản sao, giữ nguyên code.
-- src/: script thử nghiệm, đánh giá, khôi phục.
-- results/: CSV, biểu đồ và bản kiểm chứng.
-- third_party/: README và giấy phép mã kế thừa.
+Các bản PDF, kịch bản thuyết trình và bộ câu hỏi phản biện được đặt trong thư mục docs nếu đã tải lên.
 
-## Kết quả và giới hạn
+## Tải toàn bộ bộ tài liệu
 
-Checkpoint được chọn sau tinh chỉnh đạt 2,26 s trên id01 so với đối chứng 1,66 s;
-cả hai dùng Kd cổ chân = 1. id02: 1,46 → 2,14 s; ood03 giảm chất lượng.
-Tất cả các lượt trong phép đánh giá mới vẫn reset sớm do gravity_x.
-Năm lượt đánh giá cố định đạt 2,26 s không phải năm seed huấn luyện độc lập.
-Hai lần train lại cho 2,26 s và 1,40 s; chưa chứng minh train tái lập ổn định.
-Chưa bám trọn clip, chưa có camera/VR trực tiếp hoặc đo độ trễ đầu–cuối.
-Video phát đúng thời gian mô phỏng, không nối episode.
+Mở [Releases](https://github.com/huynhtamtri2006-gif/HR17-H2O-Giai-doan-1/releases), chọn bản phát hành “Bộ tài liệu nộp giai đoạn 1 - Nhóm 17” và tải file HocMay_GD1_Nhóm17_15DHTH07.zip trong mục Assets.
 
-## Chạy lại và tài nguyên để ngoài repo
+Giải nén ZIP để xem toàn bộ báo cáo, slide, demo, notebook, mã nguồn, cấu hình, checkpoint và bằng chứng thực nghiệm.
 
-Đây là bộ tài liệu và mã nộp bài, CHƯA phải môi trường chạy được ngay khi clone.
-Không Run all notebook chứa ô lịch sử. Đọc hướng dẫn trước khi chọn ô.
-Notebook đánh giá hiện có tên HR17_Danh_gia_6_Motion_ID_OOD_FINAL.ipynb;
-hướng dẫn khôi phục cũ dùng tên chưa có hậu tố FINAL.
+Hai mục “Source code (zip)” và “Source code (tar.gz)” do GitHub tự tạo không phải ZIP tổng hợp mà nhóm đính kèm.
 
-Mã nền: https://github.com/LeCAR-Lab/human2humanoid
-Commit: 750f1fa052641f0fde43669d50cb4e407dabe6c8.
-Người chạy cần tải mã nền; src/ không thay thế toàn bộ mã nền.
-Đường dẫn /content trong script là đường dẫn Google Colab.
+## Phạm vi và kết quả chính
 
-Không kèm Isaac Gym, AMASS, motion pickle, tập trích sáu clip, SMPL/SMPL-X,
-checkpoint .pt hoặc ZIP thô. Người chạy phải có đúng nguồn và quyền sử dụng.
-Isaac Gym: https://developer.nvidia.com/isaac-gym/download
-AMASS: https://amass.is.tue.mpg.de/license.html
-Tên gói và mã kiểm tra trong results/ dùng truy vết bản gốc giữ trên máy,
-không có nghĩa các gói đó được phân phối qua repo này.
+- Thực hiện trong mô phỏng Isaac Gym, dùng chuyển động tham chiếu lưu sẵn.
+- Huấn luyện PPO thu gọn với ba seed.
+- Khảo sát khối lượng, ma sát và độ trễ khi giữ policy cố định.
+- Đánh giá sáu chuyển động thuộc và ngoài bộ huấn luyện.
+- Checkpoint tinh chỉnh đạt thời gian trước reset 2,26 giây trên id01, so với đối chứng 1,66 giây trong cùng điều kiện so sánh.
+- Bản mới cải thiện trên một số clip nhưng vẫn reset sớm; chưa bám ổn định toàn chuyển động.
 
-requirements_upstream.txt là yêu cầu mã nền, không phải lockfile đầy đủ Colab.
-Phiên đã dùng: Python 3.8.20, PyTorch 2.4.1+cu121, NumPy 1.23.0,
-Isaac Gym Preview 4 và Tesla T4.
+**Kết luận:** Chưa tái lập được tuyên bố định lượng theo cùng tập dữ liệu và giao thức của bài báo. Chưa triển khai điều khiển người–robot trực tiếp hoặc đo độ trễ đầu–cuối.
 
-## Nguồn và đóng góp
+## Cấu trúc repository
 
-H2O/OmniH2O: LeCAR-Lab/human2humanoid; kế thừa Legged Gym, RSL RL, PHC
-và tác giả được ghi trong README/giấy phép gốc. Script có thể chứa mã kế thừa.
-Đóng góp nhóm: khôi phục môi trường, tổ chức thử nghiệm thu gọn, huấn luyện,
-đối chứng, kiểm chứng số liệu, demo và báo cáo; không nhận toàn bộ thuật toán nền là tự viết.
+- docs/: báo cáo, slide và tài liệu hỗ trợ thuyết trình.
+- demo/: video và hình minh họa từ dữ liệu mô phỏng.
+- notebooks/: notebook thực hiện và khôi phục môi trường.
+- src/: mã nguồn hỗ trợ thử nghiệm, đánh giá và khôi phục.
+- results/: bảng số liệu, biểu đồ và kết quả kiểm chứng.
+- third_party/: thông tin nguồn và giấy phép mã kế thừa.
 
-Giữ giấy phép trong third_party/. Không áp giấy phép mới cho toàn bộ tài nguyên.
-Mã nền ghi CC BY-NC 4.0 cùng giấy phép kế thừa. Private không thay thế quyền phân phối.
-Báo cáo có họ tên/MSSV: rà soát trước khi chuyển Public.
+Bộ tài liệu tổng hợp dung lượng lớn được đính kèm trong Releases.
