@@ -1,0 +1,1 @@
+Bộ tài liệu nộp báo cáo giai đoạn 1 của Nhóm 17, lớp 15DHTH07, gồm báo cáo Word, slide PowerPoint, video demo, notebook, mã nguồn, cấu hình, checkpoint và bằng chứng thực nghiệm kiểm chứng H2O trên robot Unitree H1.
